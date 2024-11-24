@@ -1,0 +1,16 @@
+main {
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding-block: 24px;
+
+    & img {
+        width: 286px;
+        height: 286px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+}
