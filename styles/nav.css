@@ -2,7 +2,6 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    line-height: 0;
     padding-block: 20px;
 
 
@@ -12,7 +11,12 @@ nav {
         align-items: center;
         padding-block: 8px;
         gap: 24px;
-        
+
+        & li {
+            display: flex;
+            flex-wrap: wrap;
+            white-space: normal;
+        }
 
         & li img{
             width: 40px;
@@ -30,6 +34,6 @@ nav {
     
         & ul {
             margin-top: 15px;
-        }   
+        }  
     }
 }
